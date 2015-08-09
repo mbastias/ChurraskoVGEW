@@ -14,7 +14,10 @@ public class Player2Movement : MonoBehaviour {
 	public float jumpHeight;
 	public bool isGrounded;
 	private Animator anim;
-
+	public float meleeAttackSpeed = 0.5F;
+	private float nextAttackSpeed = 0.0F;
+	private bool hasTribute;
+	private Collider2D tribute;
 
 	// Use this for initialization
 	void Awake () {
@@ -22,6 +25,7 @@ public class Player2Movement : MonoBehaviour {
 		rg = GetComponent<Rigidbody2D>();
 		anim = GetComponent<Animator>();
 		isGrounded = false;
+		hasTribute = false;
 	
 	}
 	
@@ -36,8 +40,19 @@ public class Player2Movement : MonoBehaviour {
 		}
 
 		if (Input.GetButtonDown ("MeleeP2")) {
-			meleeAttack();
-			anim.SetBool("isAttacking",true);
+
+			if(!hasTribute) grabTribute();
+			else dropTribute();
+
+			if(Time.time > nextAttackSpeed) {
+
+				nextAttackSpeed = Time.time + meleeAttackSpeed;
+
+				if(!hasTribute) {
+					meleeAttack();
+					anim.SetBool("isAttacking",true);
+				}
+			}
 		}
 	}
 	
@@ -71,9 +86,6 @@ public class Player2Movement : MonoBehaviour {
 		
 		isGrounded = Physics2D.Linecast(lineStart.position,lineEndLeft.position,1 << LayerMask.NameToLayer("Plataformas")) 
 			|| Physics2D.Linecast(lineStart.position,lineEndRight.position,1 << LayerMask.NameToLayer("Plataformas"));
-					//|| Physics2D.Linecast(lineStartLeft.position,lineEndLeft.position,1 << LayerMask.NameToLayer("Ground")) ;
-
-
 			
 			
 	}
@@ -89,7 +101,8 @@ public class Player2Movement : MonoBehaviour {
 
 	void meleeAttack() {
 
-		RaycastHit2D hit = Physics2D.Linecast (meleeStart.position, meleeEnd.position, 1 << LayerMask.NameToLayer ("NPC"));
+		RaycastHit2D hit = Physics2D.Linecast (meleeStart.position, meleeEnd.position, 1 << LayerMask.NameToLayer ("NPC") | 
+		                                       1 << LayerMask.NameToLayer ("Negro"));
 		Debug.DrawLine(meleeStart.position,meleeEnd.position,Color.green);
 		if (hit != null && hit.collider != null) {
 		
@@ -98,6 +111,40 @@ public class Player2Movement : MonoBehaviour {
 				//hit.collider.gameObject.GetComponent<NPCHealth>().ApplyDamage();
 				Debug.Log("Te pegue " + hit.collider.gameObject.name);
 			}
+		}
+	}
+
+	void grabTribute() {
+		
+		RaycastHit2D hit = Physics2D.Linecast (meleeStart.position, meleeEnd.position, 1 << LayerMask.NameToLayer ("ObjetosFijos"));
+		Debug.DrawLine(meleeStart.position,meleeEnd.position,Color.green);
+		if (hit != null && hit.collider != null) {
+			
+			if(hit.collider.gameObject.CompareTag("Tribute")) {
+				
+				//hit.collider.gameObject.transform.position = new Vector2(transform.position.x+meleeEnd.position.x,hit.collider.gameObject.transform.position.y);
+				tribute = hit.collider;
+				tribute.transform.parent = transform;
+				tribute.GetComponent<Collider2D>().attachedRigidbody.gravityScale = 0;
+				tribute.GetComponent<Collider2D>().attachedRigidbody.isKinematic = true;
+				//hit.collider.isTrigger = true;
+				tribute.transform.localPosition = meleeEnd.transform.localPosition;
+				hasTribute = true;
+				//Debug.Log("Te agarre " + hit.collider.gameObject.name);
+
+			}
+		}
+	}
+
+	void dropTribute(){
+
+		if(tribute.CompareTag("Tribute")){
+			tribute.transform.parent = null;
+			tribute.GetComponent<Collider2D>().attachedRigidbody.gravityScale = 5;
+			tribute.GetComponent<Collider2D>().attachedRigidbody.isKinematic = false;
+			//child.isTrigger = false;
+			tribute.GetComponent<Collider2D>().attachedRigidbody.AddForce(new Vector2(Mathf.Sign(transform.localScale.x)*500,500));
+			hasTribute=false;
 		}
 	}
 
