@@ -64,7 +64,7 @@ public class PlayerMovement : MonoBehaviour {
 		}
 		
 		direction = Input.GetAxis("Horizontal");
-		rg.velocity = new Vector2(direction*MoveSpeed,rg.velocity.y);
+		rg.velocity = new Vector2(direction*MoveSpeed*Time.fixedDeltaTime,rg.velocity.y);
 	}
 
 	void Raycast()
