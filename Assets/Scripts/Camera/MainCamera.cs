@@ -14,10 +14,16 @@ public class MainCamera : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Vector3.Distance (Player1.transform.position, Player2.transform.position) < 10f) {
+		if (Vector3.Distance (Player1.transform.position, Player2.transform.position) < 15f) {
 			CameraComponent.depth = 3;
+			Vector3 position = transform.position;
+			position.z = -10;
+			transform.position = position;
 		} else {
 			CameraComponent.depth = 0;
+			Vector3 position = transform.position;
+			position.z = 0;
+			transform.position = position;
 		}
 		FollowPlayers ();
 	}
@@ -41,6 +47,7 @@ public class MainCamera : MonoBehaviour {
 		}
 
 		NewPosition.z = CameraPosition.z;
+		NewPosition.y += 2f;
 
 		Debug.Log (NewPosition);
 

@@ -15,12 +15,12 @@ public class CameraSplit : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Player1.transform.position.x > Player2.transform.position.x) {
-			Vector2 position = new Vector2(.5f, 0);
-			Vector2 size = new Vector2(.5f, 1);
+			Vector2 position = new Vector2(.501f, 0);
+			Vector2 size = new Vector2(.499f, 1);
 			CameraObject.rect = new Rect(position, size);
 		} else {
 			Vector2 position = new Vector2(0, 0);
-			Vector2 size = new Vector2(.5f, 1);
+			Vector2 size = new Vector2(.499f, 1);
 			CameraObject.rect = new Rect(position, size);
 		}
 		FollowPlayer ();
