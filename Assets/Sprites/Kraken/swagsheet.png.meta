@@ -1,0 +1,231 @@
+fileFormatVersion: 2
+guid: fd7f5ae25f94ec442be31aea53dbc0bd
+timeCreated: 1439123438
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: swagsheet_0
+    21300002: swagsheet_1
+    21300004: swagsheet_2
+    21300006: swagsheet_3
+    21300008: swagsheet_4
+    21300010: swagsheet_5
+    21300012: swagsheet_6
+    21300014: swagsheet_7
+    21300016: swagsheet_8
+    21300018: swagsheet_9
+    21300020: swagsheet_10
+    21300022: swagsheet_11
+    21300024: swagsheet_12
+    21300026: swagsheet_13
+    21300028: swagsheet_14
+    21300030: swagsheet_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: swagsheet_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1555
+        width: 628
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swagsheet_1
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 1557
+        width: 638
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swagsheet_2
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 1561
+        width: 666
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swagsheet_3
+      rect:
+        serializedVersion: 2
+        x: 2219
+        y: 1564
+        width: 684
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swagsheet_4
+      rect:
+        serializedVersion: 2
+        x: 2951
+        y: 1566
+        width: 694
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swagsheet_5
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1059
+        width: 698
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swagsheet_6
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 1061
+        width: 696
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swagsheet_7
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 1059
+        width: 693
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swagsheet_8
+      rect:
+        serializedVersion: 2
+        x: 2219
+        y: 1059
+        width: 691
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swagsheet_9
+      rect:
+        serializedVersion: 2
+        x: 2951
+        y: 1058
+        width: 683
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swagsheet_10
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 549
+        width: 678
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swagsheet_11
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 549
+        width: 669
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swagsheet_12
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 547
+        width: 659
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swagsheet_13
+      rect:
+        serializedVersion: 2
+        x: 2219
+        y: 547
+        width: 650
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swagsheet_14
+      rect:
+        serializedVersion: 2
+        x: 2951
+        y: 545
+        width: 637
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: swagsheet_15
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 38
+        width: 631
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
