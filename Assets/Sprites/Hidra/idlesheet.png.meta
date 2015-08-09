@@ -1,0 +1,737 @@
+fileFormatVersion: 2
+guid: 13f4cbc6ba6310743adb4f6c521f5813
+timeCreated: 1439090005
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: idlesheet_0
+    21300002: idlesheet_1
+    21300004: idlesheet_2
+    21300006: idlesheet_3
+    21300008: idlesheet_4
+    21300010: idlesheet_5
+    21300012: idlesheet_6
+    21300014: idlesheet_7
+    21300016: idlesheet_8
+    21300018: idlesheet_9
+    21300020: idlesheet_10
+    21300022: idlesheet_11
+    21300024: idlesheet_12
+    21300026: idlesheet_13
+    21300028: idlesheet_14
+    21300030: idlesheet_15
+    21300032: idlesheet_16
+    21300034: idlesheet_17
+    21300036: idlesheet_18
+    21300038: idlesheet_19
+    21300040: idlesheet_20
+    21300042: idlesheet_21
+    21300044: idlesheet_22
+    21300046: idlesheet_23
+    21300048: idlesheet_24
+    21300050: idlesheet_25
+    21300052: idlesheet_26
+    21300054: idlesheet_27
+    21300056: idlesheet_28
+    21300058: idlesheet_29
+    21300060: idlesheet_30
+    21300062: idlesheet_31
+    21300064: idlesheet_32
+    21300066: idlesheet_33
+    21300068: idlesheet_34
+    21300070: idlesheet_35
+    21300072: idlesheet_36
+    21300074: idlesheet_37
+    21300076: idlesheet_38
+    21300078: idlesheet_39
+    21300080: idlesheet_40
+    21300082: idlesheet_41
+    21300084: idlesheet_42
+    21300086: idlesheet_43
+    21300088: idlesheet_44
+    21300090: idlesheet_45
+    21300092: idlesheet_46
+    21300094: idlesheet_47
+    21300096: idlesheet_48
+    21300098: idlesheet_49
+    21300100: idlesheet_50
+    21300102: idlesheet_51
+    21300104: idlesheet_52
+    21300106: idlesheet_53
+    21300108: idlesheet_54
+    21300110: idlesheet_55
+    21300112: idlesheet_56
+    21300114: idlesheet_57
+    21300116: idlesheet_58
+    21300118: idlesheet_59
+    21300120: idlesheet_60
+    21300122: idlesheet_61
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: idlesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11611
+        width: 812
+        height: 913
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_1
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 11611
+        width: 809
+        height: 913
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 11611
+        width: 803
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_3
+      rect:
+        serializedVersion: 2
+        x: 2529
+        y: 11614
+        width: 802
+        height: 903
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_4
+      rect:
+        serializedVersion: 2
+        x: 3374
+        y: 11617
+        width: 796
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_5
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 10649
+        width: 791
+        height: 901
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_6
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 10655
+        width: 784
+        height: 895
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 10655
+        width: 778
+        height: 895
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_8
+      rect:
+        serializedVersion: 2
+        x: 2546
+        y: 10661
+        width: 778
+        height: 882
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_9
+      rect:
+        serializedVersion: 2
+        x: 3398
+        y: 10661
+        width: 766
+        height: 882
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_10
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 9700
+        width: 760
+        height: 876
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_11
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 9700
+        width: 754
+        height: 870
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 9700
+        width: 748
+        height: 870
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_13
+      rect:
+        serializedVersion: 2
+        x: 2565
+        y: 9701
+        width: 753
+        height: 868
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_14
+      rect:
+        serializedVersion: 2
+        x: 3398
+        y: 9706
+        width: 760
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_15
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 8738
+        width: 773
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_16
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 8738
+        width: 778
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 8738
+        width: 785
+        height: 869
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_18
+      rect:
+        serializedVersion: 2
+        x: 2534
+        y: 8738
+        width: 790
+        height: 870
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_19
+      rect:
+        serializedVersion: 2
+        x: 3374
+        y: 8744
+        width: 796
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_20
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 7776
+        width: 797
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_21
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 7782
+        width: 796
+        height: 858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_22
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 7782
+        width: 803
+        height: 858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_23
+      rect:
+        serializedVersion: 2
+        x: 2534
+        y: 7782
+        width: 809
+        height: 858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_24
+      rect:
+        serializedVersion: 2
+        x: 3380
+        y: 7789
+        width: 809
+        height: 851
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_25
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 6821
+        width: 809
+        height: 857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_26
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 6827
+        width: 809
+        height: 851
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_27
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 6827
+        width: 803
+        height: 851
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_28
+      rect:
+        serializedVersion: 2
+        x: 2559
+        y: 6833
+        width: 802
+        height: 845
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_29
+      rect:
+        serializedVersion: 2
+        x: 3410
+        y: 6833
+        width: 791
+        height: 851
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_30
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 5859
+        width: 796
+        height: 858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_31
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 5853
+        width: 790
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_32
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 5847
+        width: 791
+        height: 876
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_33
+      rect:
+        serializedVersion: 2
+        x: 2571
+        y: 5841
+        width: 790
+        height: 882
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_34
+      rect:
+        serializedVersion: 2
+        x: 3416
+        y: 5841
+        width: 791
+        height: 882
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_35
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 4867
+        width: 784
+        height: 894
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_36
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 4867
+        width: 784
+        height: 894
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_37
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 4861
+        width: 779
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_38
+      rect:
+        serializedVersion: 2
+        x: 2583
+        y: 4861
+        width: 778
+        height: 894
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_39
+      rect:
+        serializedVersion: 2
+        x: 3429
+        y: 4861
+        width: 772
+        height: 894
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_40
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 3893
+        width: 772
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_41
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 3893
+        width: 766
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_42
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 3893
+        width: 758
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_43
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 3887
+        width: 748
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_44
+      rect:
+        serializedVersion: 2
+        x: 3435
+        y: 3887
+        width: 754
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_45
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 2925
+        width: 766
+        height: 899
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_46
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 2925
+        width: 778
+        height: 894
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_47
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 2925
+        width: 785
+        height: 894
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_48
+      rect:
+        serializedVersion: 2
+        x: 2565
+        y: 2925
+        width: 796
+        height: 894
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_49
+      rect:
+        serializedVersion: 2
+        x: 3398
+        y: 2925
+        width: 809
+        height: 894
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_50
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1957
+        width: 815
+        height: 901
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_51
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1957
+        width: 827
+        height: 906
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_52
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 1957
+        width: 827
+        height: 907
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_53
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 1957
+        width: 833
+        height: 907
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_54
+      rect:
+        serializedVersion: 2
+        x: 3380
+        y: 1957
+        width: 830
+        height: 913
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_55
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 989
+        width: 834
+        height: 913
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_56
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 989
+        width: 839
+        height: 919
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_57
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 989
+        width: 834
+        height: 919
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_58
+      rect:
+        serializedVersion: 2
+        x: 2528
+        y: 989
+        width: 833
+        height: 919
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_59
+      rect:
+        serializedVersion: 2
+        x: 3367
+        y: 990
+        width: 828
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 28
+        width: 824
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_61
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 28
+        width: 821
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

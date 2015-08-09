@@ -27,7 +27,7 @@ public class NpcBase : MonoBehaviour {
 	{
 		rg = GetComponent<Rigidbody2D>();
 		anim = GetComponent<Animator>();
-		WalkHorWoF = false;
+		WalkHorWoF = true;
 	
 	}
 	
