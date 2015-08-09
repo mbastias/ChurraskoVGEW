@@ -39,12 +39,7 @@ public class NpcBase : MonoBehaviour {
 	
 	protected void FixedUpdate()
 	{
-		anim.SetFloat("SpeedX",rg.velocity.x);
-	
 		Raycast();
-		
-		
-		
 		
 		if(rg.velocity.x != 0 && rg.velocity.y <= Mathf.Abs(0.1f))
 		{
@@ -78,7 +73,7 @@ public class NpcBase : MonoBehaviour {
 			setDirectionX();
 		}
 		
-		rg.velocity = new Vector2(directionX * MoveSpeedX * Time.deltaTime, rg.velocity.y);
+		rg.velocity = new Vector2(directionX * MoveSpeedX * Time.fixedDeltaTime, rg.velocity.y);
 		
 		
 	}
