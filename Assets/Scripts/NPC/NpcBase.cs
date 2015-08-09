@@ -70,7 +70,10 @@ public class NpcBase : MonoBehaviour {
 	{
 		if(!isGrounded)
 		{
-			directionX = -directionX;
+			if(Mathf.Abs(rg.velocity.y) < 0.1)
+			{
+				directionX = -directionX;
+			}
 			setDirectionX();
 		}
 		
