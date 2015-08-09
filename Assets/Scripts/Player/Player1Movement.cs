@@ -104,11 +104,13 @@ public class Player1Movement : MonoBehaviour {
 		RaycastHit2D hit = Physics2D.Linecast (meleeStart.position, meleeEnd.position, 1 << LayerMask.NameToLayer ("NPC") | 
 		                                       1 << LayerMask.NameToLayer ("Negro"));
 		Debug.DrawLine(meleeStart.position,meleeEnd.position,Color.green);
+		AudioSource audio = GetComponent<AudioSource> ();
+		audio.Play ();
 		if (hit != null && hit.collider != null) {
 		
 			if(hit.collider.gameObject.CompareTag("NPC")) {
 
-				//hit.collider.gameObject.GetComponent<NPCHealth>().ApplyDamage();
+				hit.collider.gameObject.GetComponent<Damage>().ApplyDamage(-1f);
 				Debug.Log("Te pegue " + hit.collider.gameObject.name);
 			}
 		}

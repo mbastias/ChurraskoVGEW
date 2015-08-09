@@ -41,13 +41,6 @@ public class NpcBase : MonoBehaviour {
 	{
 		Raycast();
 		
-		if(rg.velocity.x != 0 && rg.velocity.y <= Mathf.Abs(0.1f))
-		{
-			anim.SetBool("isWalking",true);
-			
-		}
-		else anim.SetBool("isWalking",false);
-		
 		if(WalkHorWoF == true)
 		{
 			WalkHorizontalNoFallling();

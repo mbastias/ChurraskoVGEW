@@ -32,7 +32,7 @@ public class CameraSplit : MonoBehaviour {
 	void FollowPlayer(){
 		Vector3 CameraPosition = transform.position;
 		Vector3 Player1Position = Player1.transform.position;
-		Player1Position.y += 2;
+		Player1Position.y += 4;
 		transform.position = new Vector3 (Player1Position.x, Player1Position.y, CameraPosition.z);
 	}
 }

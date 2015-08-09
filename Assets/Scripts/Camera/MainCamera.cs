@@ -47,9 +47,7 @@ public class MainCamera : MonoBehaviour {
 		}
 
 		NewPosition.z = CameraPosition.z;
-		NewPosition.y += 2f;
-
-		Debug.Log (NewPosition);
+		NewPosition.y += 4f;
 
 		transform.position = NewPosition;
 	}
