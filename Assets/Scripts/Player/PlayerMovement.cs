@@ -14,6 +14,8 @@ public class PlayerMovement : MonoBehaviour {
 	public float jumpHeight;
 	public bool isGrounded;
 	private Animator anim;
+	
+	
 
 
 	// Use this for initialization
@@ -66,7 +68,7 @@ public class PlayerMovement : MonoBehaviour {
 	}
 
 	void Raycast()
-	{
+{
 		Debug.DrawLine(lineStartRight.position,lineEndRight.position,Color.red);
 		//Debug.DrawLine(lineStartLeft.position,lineEndLeft.position,Color.red);
 		
@@ -92,7 +94,7 @@ public class PlayerMovement : MonoBehaviour {
 		
 			if(hit.collider.gameObject.CompareTag("NPC")) {
 
-				//hit.collider.gameObject.GetComponent<NPCHealth>().ApplyDamage();
+				hit.collider.gameObject.GetComponent<Damage>().ApplyDamage(-1f);
 				Debug.Log("Te pegue " + hit.collider.gameObject.name);
 			}
 		}
