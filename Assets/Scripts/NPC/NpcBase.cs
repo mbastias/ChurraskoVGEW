@@ -63,14 +63,17 @@ public class NpcBase : MonoBehaviour {
 	{
 		Debug.DrawLine(lineStart.position,lineEnd.position,Color.red);
 		
-		isGrounded = Physics2D.Linecast(lineStart.position,lineEnd.position,1 << LayerMask.NameToLayer("Ground"));		
+		isGrounded = Physics2D.Linecast(lineStart.position,lineEnd.position,1 << LayerMask.NameToLayer("Plataformas"));		
 	}
 	
 	private void WalkHorizontalNoFallling()
 	{
 		if(!isGrounded)
 		{
-			directionX = -directionX;
+			if(Mathf.Abs(rg.velocity.y) < 0.1)
+			{
+				directionX = -directionX;
+			}
 			setDirectionX();
 		}
 		
