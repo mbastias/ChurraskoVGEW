@@ -1,71 +1,71 @@
 fileFormatVersion: 2
-guid: 88c59b1d0047a43458562ebbf21a0a00
-timeCreated: 1439091599
+guid: 87704271746fc7c4bb9b27a65945bb27
+timeCreated: 1439091782
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: jumpsheet_0
-    21300002: jumpsheet_1
-    21300004: jumpsheet_2
-    21300006: jumpsheet_3
-    21300008: jumpsheet_4
-    21300010: jumpsheet_5
-    21300012: jumpsheet_6
-    21300014: jumpsheet_7
-    21300016: jumpsheet_8
-    21300018: jumpsheet_9
-    21300020: jumpsheet_10
-    21300022: jumpsheet_11
-    21300024: jumpsheet_12
-    21300026: jumpsheet_13
-    21300028: jumpsheet_14
-    21300030: jumpsheet_15
-    21300032: jumpsheet_16
-    21300034: jumpsheet_17
-    21300036: jumpsheet_18
-    21300038: jumpsheet_19
-    21300040: jumpsheet_20
-    21300042: jumpsheet_21
-    21300044: jumpsheet_22
-    21300046: jumpsheet_23
-    21300048: jumpsheet_24
-    21300050: jumpsheet_25
-    21300052: jumpsheet_26
-    21300054: jumpsheet_27
-    21300056: jumpsheet_28
-    21300058: jumpsheet_29
-    21300060: jumpsheet_30
-    21300062: jumpsheet_31
-    21300064: jumpsheet_32
-    21300066: jumpsheet_33
-    21300068: jumpsheet_34
-    21300070: jumpsheet_35
-    21300072: jumpsheet_36
-    21300074: jumpsheet_37
-    21300076: jumpsheet_38
-    21300078: jumpsheet_39
-    21300080: jumpsheet_40
-    21300082: jumpsheet_41
-    21300084: jumpsheet_42
-    21300086: jumpsheet_43
-    21300088: jumpsheet_44
-    21300090: jumpsheet_45
-    21300092: jumpsheet_46
-    21300094: jumpsheet_47
-    21300096: jumpsheet_48
-    21300098: jumpsheet_49
-    21300100: jumpsheet_50
-    21300102: jumpsheet_51
-    21300104: jumpsheet_52
-    21300106: jumpsheet_53
-    21300108: jumpsheet_54
-    21300110: jumpsheet_55
-    21300112: jumpsheet_56
-    21300114: jumpsheet_57
-    21300116: jumpsheet_58
-    21300118: jumpsheet_59
-    21300120: jumpsheet_60
-    21300122: jumpsheet_61
+    21300000: idlesheet_0
+    21300002: idlesheet_1
+    21300004: idlesheet_2
+    21300006: idlesheet_3
+    21300008: idlesheet_4
+    21300010: idlesheet_5
+    21300012: idlesheet_6
+    21300014: idlesheet_7
+    21300016: idlesheet_8
+    21300018: idlesheet_9
+    21300020: idlesheet_10
+    21300022: idlesheet_11
+    21300024: idlesheet_12
+    21300026: idlesheet_13
+    21300028: idlesheet_14
+    21300030: idlesheet_15
+    21300032: idlesheet_16
+    21300034: idlesheet_17
+    21300036: idlesheet_18
+    21300038: idlesheet_19
+    21300040: idlesheet_20
+    21300042: idlesheet_21
+    21300044: idlesheet_22
+    21300046: idlesheet_23
+    21300048: idlesheet_24
+    21300050: idlesheet_25
+    21300052: idlesheet_26
+    21300054: idlesheet_27
+    21300056: idlesheet_28
+    21300058: idlesheet_29
+    21300060: idlesheet_30
+    21300062: idlesheet_31
+    21300064: idlesheet_32
+    21300066: idlesheet_33
+    21300068: idlesheet_34
+    21300070: idlesheet_35
+    21300072: idlesheet_36
+    21300074: idlesheet_37
+    21300076: idlesheet_38
+    21300078: idlesheet_39
+    21300080: idlesheet_40
+    21300082: idlesheet_41
+    21300084: idlesheet_42
+    21300086: idlesheet_43
+    21300088: idlesheet_44
+    21300090: idlesheet_45
+    21300092: idlesheet_46
+    21300094: idlesheet_47
+    21300096: idlesheet_48
+    21300098: idlesheet_49
+    21300100: idlesheet_50
+    21300102: idlesheet_51
+    21300104: idlesheet_52
+    21300106: idlesheet_53
+    21300108: idlesheet_54
+    21300110: idlesheet_55
+    21300112: idlesheet_56
+    21300114: idlesheet_57
+    21300116: idlesheet_58
+    21300118: idlesheet_59
+    21300120: idlesheet_60
+    21300122: idlesheet_61
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -111,623 +111,623 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: jumpsheet_0
+    - name: idlesheet_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 6116
-        width: 374
-        height: 473
+        x: 5
+        y: 6405
+        width: 308
+        height: 495
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_1
+    - name: idlesheet_1
       rect:
         serializedVersion: 2
-        x: 434
-        y: 6115
-        width: 370
-        height: 474
+        x: 384
+        y: 6405
+        width: 309
+        height: 495
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_2
+    - name: idlesheet_2
       rect:
         serializedVersion: 2
-        x: 862
-        y: 6112
-        width: 364
-        height: 477
+        x: 760
+        y: 6405
+        width: 312
+        height: 495
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_3
+    - name: idlesheet_3
       rect:
         serializedVersion: 2
-        x: 1294
-        y: 6112
-        width: 361
-        height: 477
+        x: 1140
+        y: 6405
+        width: 311
+        height: 495
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_4
+    - name: idlesheet_4
       rect:
         serializedVersion: 2
-        x: 1723
-        y: 6109
-        width: 358
-        height: 480
+        x: 1519
+        y: 6405
+        width: 312
+        height: 495
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_5
+    - name: idlesheet_5
       rect:
         serializedVersion: 2
-        x: 2
-        y: 5600
-        width: 354
-        height: 480
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_6
-      rect:
-        serializedVersion: 2
-        x: 434
-        y: 5596
-        width: 348
-        height: 484
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_7
-      rect:
-        serializedVersion: 2
-        x: 862
-        y: 5593
-        width: 342
-        height: 487
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_8
-      rect:
-        serializedVersion: 2
-        x: 1294
-        y: 5593
-        width: 335
-        height: 487
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_9
-      rect:
-        serializedVersion: 2
-        x: 1723
-        y: 5590
-        width: 329
-        height: 490
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_10
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 5080
-        width: 325
-        height: 494
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_11
-      rect:
-        serializedVersion: 2
-        x: 434
-        y: 5080
+        x: 8
+        y: 5873
         width: 315
-        height: 494
+        height: 491
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_12
+    - name: idlesheet_6
       rect:
         serializedVersion: 2
-        x: 862
-        y: 5077
-        width: 310
-        height: 497
+        x: 384
+        y: 5873
+        width: 319
+        height: 491
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_13
+    - name: idlesheet_7
       rect:
         serializedVersion: 2
-        x: 1294
-        y: 5077
-        width: 310
-        height: 497
+        x: 764
+        y: 5873
+        width: 318
+        height: 491
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_14
+    - name: idlesheet_8
       rect:
         serializedVersion: 2
-        x: 1723
-        y: 5080
-        width: 316
-        height: 494
+        x: 1143
+        y: 5873
+        width: 319
+        height: 490
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_15
+    - name: idlesheet_9
       rect:
         serializedVersion: 2
-        x: 2
-        y: 4574
+        x: 1519
+        y: 5873
         width: 325
-        height: 490
+        height: 488
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_16
+    - name: idlesheet_10
       rect:
         serializedVersion: 2
-        x: 434
-        y: 4574
+        x: 8
+        y: 5337
+        width: 326
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_11
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 5337
+        width: 325
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_12
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 5337
+        width: 328
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 5337
+        width: 329
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 5337
         width: 331
-        height: 490
+        height: 488
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_17
+    - name: idlesheet_15
       rect:
         serializedVersion: 2
-        x: 862
-        y: 4577
-        width: 339
-        height: 487
+        x: 12
+        y: 4805
+        width: 332
+        height: 485
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_18
+    - name: idlesheet_16
       rect:
         serializedVersion: 2
-        x: 1294
-        y: 4577
-        width: 342
-        height: 487
+        x: 388
+        y: 4805
+        width: 335
+        height: 485
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_19
+    - name: idlesheet_17
       rect:
         serializedVersion: 2
-        x: 1723
-        y: 4581
-        width: 348
-        height: 483
+        x: 767
+        y: 4805
+        width: 335
+        height: 485
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_20
+    - name: idlesheet_18
       rect:
         serializedVersion: 2
-        x: 2
-        y: 4074
-        width: 354
+        x: 1147
+        y: 4805
+        width: 335
         height: 484
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_21
+    - name: idlesheet_19
       rect:
         serializedVersion: 2
-        x: 434
-        y: 4078
-        width: 357
+        x: 1526
+        y: 4805
+        width: 335
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_20
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 4269
+        width: 339
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_21
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 4269
+        width: 339
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_22
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 4269
+        width: 342
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_23
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 4269
+        width: 342
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_24
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 4269
+        width: 345
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_25
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 3737
+        width: 346
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_26
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 3737
+        width: 345
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_27
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 3737
+        width: 348
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_28
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 3737
+        width: 349
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_29
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 3737
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_30
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 3202
+        width: 348
+        height: 477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_31
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 3202
+        width: 348
+        height: 477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_32
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 3202
+        width: 345
+        height: 477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_33
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 3202
+        width: 345
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idlesheet_34
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 3202
+        width: 345
         height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_22
+    - name: idlesheet_35
       rect:
         serializedVersion: 2
-        x: 862
-        y: 4081
-        width: 364
-        height: 477
+        x: 15
+        y: 2669
+        width: 346
+        height: 478
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_23
+    - name: idlesheet_36
       rect:
         serializedVersion: 2
-        x: 1294
-        y: 4081
-        width: 367
-        height: 477
+        x: 391
+        y: 2669
+        width: 346
+        height: 478
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_24
+    - name: idlesheet_37
       rect:
         serializedVersion: 2
-        x: 1723
-        y: 4084
-        width: 371
-        height: 474
+        x: 771
+        y: 2669
+        width: 342
+        height: 482
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_25
+    - name: idlesheet_38
       rect:
         serializedVersion: 2
-        x: 2
-        y: 3578
-        width: 377
-        height: 470
+        x: 1147
+        y: 2669
+        width: 342
+        height: 482
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_26
+    - name: idlesheet_39
       rect:
         serializedVersion: 2
-        x: 434
-        y: 3578
-        width: 377
-        height: 470
+        x: 1526
+        y: 2669
+        width: 339
+        height: 482
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_27
+    - name: idlesheet_40
       rect:
         serializedVersion: 2
-        x: 862
-        y: 3581
-        width: 384
-        height: 467
+        x: 12
+        y: 2134
+        width: 339
+        height: 484
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_28
+    - name: idlesheet_41
       rect:
         serializedVersion: 2
-        x: 1294
-        y: 3584
-        width: 387
-        height: 464
+        x: 391
+        y: 2134
+        width: 339
+        height: 484
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_29
+    - name: idlesheet_42
       rect:
         serializedVersion: 2
-        x: 1723
-        y: 3584
-        width: 393
-        height: 464
+        x: 767
+        y: 2134
+        width: 339
+        height: 484
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_30
+    - name: idlesheet_43
       rect:
         serializedVersion: 2
-        x: 2
-        y: 3078
-        width: 396
-        height: 464
+        x: 1147
+        y: 2134
+        width: 335
+        height: 484
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_31
+    - name: idlesheet_44
       rect:
         serializedVersion: 2
-        x: 434
-        y: 3081
-        width: 396
-        height: 461
+        x: 1523
+        y: 2134
+        width: 335
+        height: 484
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_32
+    - name: idlesheet_45
       rect:
         serializedVersion: 2
-        x: 862
-        y: 3084
-        width: 400
-        height: 458
+        x: 12
+        y: 1598
+        width: 332
+        height: 488
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_33
+    - name: idlesheet_46
       rect:
         serializedVersion: 2
-        x: 1294
-        y: 3085
-        width: 400
-        height: 457
+        x: 388
+        y: 1598
+        width: 332
+        height: 488
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_34
+    - name: idlesheet_47
       rect:
         serializedVersion: 2
-        x: 1723
-        y: 3088
-        width: 403
-        height: 454
+        x: 767
+        y: 1598
+        width: 329
+        height: 488
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_35
+    - name: idlesheet_48
       rect:
         serializedVersion: 2
-        x: 2
-        y: 2581
-        width: 406
-        height: 452
+        x: 1143
+        y: 1598
+        width: 329
+        height: 488
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_36
+    - name: idlesheet_49
       rect:
         serializedVersion: 2
-        x: 434
-        y: 2585
-        width: 406
-        height: 448
+        x: 1523
+        y: 1598
+        width: 325
+        height: 492
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_37
+    - name: idlesheet_50
       rect:
         serializedVersion: 2
-        x: 862
-        y: 2588
-        width: 410
-        height: 445
+        x: 8
+        y: 1066
+        width: 326
+        height: 488
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_38
+    - name: idlesheet_51
       rect:
         serializedVersion: 2
-        x: 1294
-        y: 2591
-        width: 406
-        height: 442
+        x: 388
+        y: 1066
+        width: 325
+        height: 488
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_39
+    - name: idlesheet_52
       rect:
         serializedVersion: 2
-        x: 1723
-        y: 2591
-        width: 409
-        height: 442
+        x: 764
+        y: 1066
+        width: 325
+        height: 491
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_40
+    - name: idlesheet_53
       rect:
         serializedVersion: 2
-        x: 2
-        y: 2085
-        width: 409
-        height: 441
+        x: 1143
+        y: 1066
+        width: 322
+        height: 491
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_41
+    - name: idlesheet_54
       rect:
         serializedVersion: 2
-        x: 434
-        y: 2088
-        width: 406
-        height: 438
+        x: 1519
+        y: 1066
+        width: 322
+        height: 492
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_42
+    - name: idlesheet_55
       rect:
         serializedVersion: 2
-        x: 862
-        y: 2091
-        width: 406
-        height: 435
+        x: 8
+        y: 530
+        width: 319
+        height: 492
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_43
+    - name: idlesheet_56
       rect:
         serializedVersion: 2
-        x: 1294
-        y: 2094
-        width: 403
-        height: 432
+        x: 384
+        y: 530
+        width: 319
+        height: 495
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_44
+    - name: idlesheet_57
       rect:
         serializedVersion: 2
-        x: 1723
-        y: 2094
-        width: 406
-        height: 432
+        x: 764
+        y: 530
+        width: 315
+        height: 495
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_45
+    - name: idlesheet_58
       rect:
         serializedVersion: 2
-        x: 2
-        y: 1582
-        width: 409
-        height: 435
+        x: 1140
+        y: 530
+        width: 315
+        height: 495
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_46
+    - name: idlesheet_59
       rect:
         serializedVersion: 2
-        x: 434
-        y: 1579
-        width: 406
-        height: 438
+        x: 1519
+        y: 530
+        width: 312
+        height: 495
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_47
+    - name: idlesheet_60
       rect:
         serializedVersion: 2
-        x: 862
-        y: 1578
-        width: 410
-        height: 439
+        x: 5
+        y: 0
+        width: 312
+        height: 493
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_48
+    - name: idlesheet_61
       rect:
         serializedVersion: 2
-        x: 1294
-        y: 1575
-        width: 406
-        height: 442
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_49
-      rect:
-        serializedVersion: 2
-        x: 1723
-        y: 1572
-        width: 409
-        height: 445
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_50
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 1063
-        width: 409
-        height: 444
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_51
-      rect:
-        serializedVersion: 2
-        x: 434
-        y: 1059
-        width: 406
-        height: 448
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_52
-      rect:
-        serializedVersion: 2
-        x: 862
-        y: 1059
-        width: 406
-        height: 448
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_53
-      rect:
-        serializedVersion: 2
-        x: 1294
-        y: 1056
-        width: 403
-        height: 451
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_54
-      rect:
-        serializedVersion: 2
-        x: 1723
-        y: 1053
-        width: 403
-        height: 454
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_55
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 543
-        width: 402
-        height: 458
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_56
-      rect:
-        serializedVersion: 2
-        x: 434
-        y: 540
-        width: 396
-        height: 461
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_57
-      rect:
-        serializedVersion: 2
-        x: 862
-        y: 540
-        width: 397
-        height: 461
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_58
-      rect:
-        serializedVersion: 2
-        x: 1294
-        y: 537
-        width: 390
-        height: 464
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_59
-      rect:
-        serializedVersion: 2
-        x: 1723
-        y: 534
-        width: 390
-        height: 467
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_60
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 27
-        width: 386
-        height: 465
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: jumpsheet_61
-      rect:
-        serializedVersion: 2
-        x: 434
-        y: 24
-        width: 380
-        height: 468
+        x: 384
+        y: 0
+        width: 309
+        height: 493
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

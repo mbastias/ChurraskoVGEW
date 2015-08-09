@@ -1,9 +1,71 @@
 fileFormatVersion: 2
 guid: d2825e2ccdf78824e91f7e05f5b23b38
-timeCreated: 1439089815
+timeCreated: 1439091552
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: attacksheet_0
+    21300002: attacksheet_1
+    21300004: attacksheet_2
+    21300006: attacksheet_3
+    21300008: attacksheet_4
+    21300010: attacksheet_5
+    21300012: attacksheet_6
+    21300014: attacksheet_7
+    21300016: attacksheet_8
+    21300018: attacksheet_9
+    21300020: attacksheet_10
+    21300022: attacksheet_11
+    21300024: attacksheet_12
+    21300026: attacksheet_13
+    21300028: attacksheet_14
+    21300030: attacksheet_15
+    21300032: attacksheet_16
+    21300034: attacksheet_17
+    21300036: attacksheet_18
+    21300038: attacksheet_19
+    21300040: attacksheet_20
+    21300042: attacksheet_21
+    21300044: attacksheet_22
+    21300046: attacksheet_23
+    21300048: attacksheet_24
+    21300050: attacksheet_25
+    21300052: attacksheet_26
+    21300054: attacksheet_27
+    21300056: attacksheet_28
+    21300058: attacksheet_29
+    21300060: attacksheet_30
+    21300062: attacksheet_31
+    21300064: attacksheet_32
+    21300066: attacksheet_33
+    21300068: attacksheet_34
+    21300070: attacksheet_35
+    21300072: attacksheet_36
+    21300074: attacksheet_37
+    21300076: attacksheet_38
+    21300078: attacksheet_39
+    21300080: attacksheet_40
+    21300082: attacksheet_41
+    21300084: attacksheet_42
+    21300086: attacksheet_43
+    21300088: attacksheet_44
+    21300090: attacksheet_45
+    21300092: attacksheet_46
+    21300094: attacksheet_47
+    21300096: attacksheet_48
+    21300098: attacksheet_49
+    21300100: attacksheet_50
+    21300102: attacksheet_51
+    21300104: attacksheet_52
+    21300106: attacksheet_53
+    21300108: attacksheet_54
+    21300110: attacksheet_55
+    21300112: attacksheet_56
+    21300114: attacksheet_57
+    21300116: attacksheet_58
+    21300118: attacksheet_59
+    21300120: attacksheet_60
+    21300122: attacksheet_61
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,14 +92,14 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -48,7 +110,627 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: attacksheet_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 7040
+        width: 309
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_1
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 7040
+        width: 306
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_2
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 7040
+        width: 307
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_3
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 7040
+        width: 310
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_4
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 7040
+        width: 306
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 6455
+        width: 309
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_6
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 6455
+        width: 306
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_7
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 6455
+        width: 309
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_8
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 6455
+        width: 310
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_9
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 6455
+        width: 306
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 5867
+        width: 309
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_11
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 5867
+        width: 306
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_12
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 5867
+        width: 307
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_13
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 5867
+        width: 310
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_14
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 5867
+        width: 306
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_15
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 5282
+        width: 309
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_16
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 5282
+        width: 306
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_17
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 5282
+        width: 309
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_18
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 5282
+        width: 310
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_19
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 5282
+        width: 306
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4693
+        width: 312
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_21
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 4693
+        width: 321
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_22
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 4693
+        width: 328
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_23
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 4693
+        width: 317
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_24
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 4693
+        width: 306
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_25
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4108
+        width: 309
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_26
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 4108
+        width: 306
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_27
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 4108
+        width: 309
+        height: 548
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_28
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 4108
+        width: 310
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_29
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 4108
+        width: 306
+        height: 548
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_30
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3519
+        width: 309
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_31
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 3519
+        width: 306
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_32
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 3519
+        width: 309
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_33
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 3519
+        width: 310
+        height: 570
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_34
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 3519
+        width: 306
+        height: 570
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_35
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2934
+        width: 309
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_36
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 2934
+        width: 306
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_37
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 2934
+        width: 309
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_38
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 2934
+        width: 310
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_39
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 2934
+        width: 306
+        height: 541
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_40
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2346
+        width: 309
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_41
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 2346
+        width: 313
+        height: 525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_42
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 2346
+        width: 331
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_43
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 2346
+        width: 343
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_44
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 2346
+        width: 351
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_45
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1757
+        width: 358
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_46
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 1757
+        width: 354
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_47
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 1757
+        width: 350
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_48
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 1757
+        width: 347
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_49
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 1757
+        width: 332
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_50
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1172
+        width: 317
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_51
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 1172
+        width: 306
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_52
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 1172
+        width: 309
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_53
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 1172
+        width: 310
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_54
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 1172
+        width: 306
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_55
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 583
+        width: 309
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_56
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 583
+        width: 306
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_57
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 583
+        width: 308
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_58
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 583
+        width: 310
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_59
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 583
+        width: 306
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_60
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 309
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacksheet_61
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 0
+        width: 306
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 
