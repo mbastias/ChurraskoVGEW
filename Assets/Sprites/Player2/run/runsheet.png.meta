@@ -1,9 +1,71 @@
 fileFormatVersion: 2
 guid: c10efd6c6ee98b545a34a87ccee4c413
-timeCreated: 1439089809
+timeCreated: 1439091640
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: runsheet_0
+    21300002: runsheet_1
+    21300004: runsheet_2
+    21300006: runsheet_3
+    21300008: runsheet_4
+    21300010: runsheet_5
+    21300012: runsheet_6
+    21300014: runsheet_7
+    21300016: runsheet_8
+    21300018: runsheet_9
+    21300020: runsheet_10
+    21300022: runsheet_11
+    21300024: runsheet_12
+    21300026: runsheet_13
+    21300028: runsheet_14
+    21300030: runsheet_15
+    21300032: runsheet_16
+    21300034: runsheet_17
+    21300036: runsheet_18
+    21300038: runsheet_19
+    21300040: runsheet_20
+    21300042: runsheet_21
+    21300044: runsheet_22
+    21300046: runsheet_23
+    21300048: runsheet_24
+    21300050: runsheet_25
+    21300052: runsheet_26
+    21300054: runsheet_27
+    21300056: runsheet_28
+    21300058: runsheet_29
+    21300060: runsheet_30
+    21300062: runsheet_31
+    21300064: runsheet_32
+    21300066: runsheet_33
+    21300068: runsheet_34
+    21300070: runsheet_35
+    21300072: runsheet_36
+    21300074: runsheet_37
+    21300076: runsheet_38
+    21300078: runsheet_39
+    21300080: runsheet_40
+    21300082: runsheet_41
+    21300084: runsheet_42
+    21300086: runsheet_43
+    21300088: runsheet_44
+    21300090: runsheet_45
+    21300092: runsheet_46
+    21300094: runsheet_47
+    21300096: runsheet_48
+    21300098: runsheet_49
+    21300100: runsheet_50
+    21300102: runsheet_51
+    21300104: runsheet_52
+    21300106: runsheet_53
+    21300108: runsheet_54
+    21300110: runsheet_55
+    21300112: runsheet_56
+    21300114: runsheet_57
+    21300116: runsheet_58
+    21300118: runsheet_59
+    21300120: runsheet_60
+    21300122: runsheet_61
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,14 +92,14 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -48,7 +110,627 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: runsheet_0
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 6168
+        width: 293
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_1
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 6171
+        width: 293
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_2
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 6171
+        width: 294
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_3
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 6175
+        width: 300
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_4
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 6178
+        width: 313
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 5669
+        width: 329
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_6
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 5675
+        width: 352
+        height: 477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_7
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 5682
+        width: 372
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_8
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 5689
+        width: 395
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_9
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 5695
+        width: 411
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_10
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 5189
+        width: 427
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_11
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 5199
+        width: 443
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_12
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 5212
+        width: 456
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_13
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 5215
+        width: 463
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_14
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 5206
+        width: 457
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_15
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 4687
+        width: 444
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_16
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 4680
+        width: 437
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_17
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 4674
+        width: 428
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_18
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 4667
+        width: 418
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_19
+      rect:
+        serializedVersion: 2
+        x: 2023
+        y: 4661
+        width: 408
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_20
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 4142
+        width: 397
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_21
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 4139
+        width: 384
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_22
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 4135
+        width: 375
+        height: 477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_23
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 4131
+        width: 365
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_24
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 4127
+        width: 348
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_25
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 3610
+        width: 343
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_26
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 3607
+        width: 342
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_27
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 3604
+        width: 336
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_28
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 3604
+        width: 329
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_29
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 3604
+        width: 322
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_30
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 3088
+        width: 316
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_31
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 3088
+        width: 313
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_32
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 3088
+        width: 303
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_33
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 3088
+        width: 293
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_34
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 3088
+        width: 293
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_35
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 2569
+        width: 293
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_36
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2569
+        width: 293
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_37
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 2569
+        width: 294
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_38
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 2570
+        width: 293
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_39
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 2573
+        width: 293
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_40
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 2062
+        width: 293
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_41
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2067
+        width: 293
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_42
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 2070
+        width: 303
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_43
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 2077
+        width: 310
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_44
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 2083
+        width: 313
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_45
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1574
+        width: 320
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_46
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1584
+        width: 326
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_47
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 1591
+        width: 336
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_48
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 1594
+        width: 348
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_49
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 1598
+        width: 358
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_50
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1088
+        width: 365
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_51
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 1078
+        width: 358
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_52
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 1069
+        width: 346
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_53
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 1062
+        width: 329
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_54
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 1056
+        width: 319
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_55
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 537
+        width: 313
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_56
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 530
+        width: 306
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_57
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 527
+        width: 297
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_58
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 524
+        width: 293
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_59
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 520
+        width: 293
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_60
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 2
+        width: 294
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: runsheet_61
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 293
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 
