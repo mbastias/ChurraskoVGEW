@@ -37,13 +37,13 @@ public class PlayerMovement : MonoBehaviour {
 
 		if (Input.GetButtonDown ("Fire1")) {
 			meleeAttack();
+			anim.SetBool("isAttacking",true);
 		}
 	}
 	
 	void FixedUpdate () 
 	{
-		if (anim.GetBool ("isJumping"))
-			anim.SetBool ("isJumping", false);
+		stopAnimations ();
 
 		if (!isGrounded)
 			anim.SetBool ("isJumping", true);
@@ -96,6 +96,16 @@ public class PlayerMovement : MonoBehaviour {
 				Debug.Log("Te pegue " + hit.collider.gameObject.name);
 			}
 		}
+	}
+
+	void stopAnimations(){
+
+		if (anim.GetBool ("isJumping"))
+			anim.SetBool ("isJumping", false);
+
+		if (anim.GetBool ("isAttacking"))
+			anim.SetBool ("isAttacking", false);
+
 	}
 	
 }
