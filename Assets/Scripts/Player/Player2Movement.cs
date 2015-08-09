@@ -6,8 +6,7 @@ public class Player2Movement : MonoBehaviour {
 	private Rigidbody2D rg;
 	public Transform lineStart,lineEndLeft,lineEndRight;
 	public Transform meleeStart, meleeEnd;
-	//public Transform lineEndLeft;
-	//public Transform lineStartLeft;
+	public Transform meleeStart2, meleeEnd2;
 	public float MoveSpeed;
 	private float direction;
 	private float movement;
@@ -18,6 +17,8 @@ public class Player2Movement : MonoBehaviour {
 	private float nextAttackSpeed = 0.0F;
 	private bool hasTribute;
 	private Collider2D tribute;
+	private Vector3 spawnPoint;
+	private Camera cam1;
 
 	// Use this for initialization
 	void Awake () {
@@ -26,7 +27,8 @@ public class Player2Movement : MonoBehaviour {
 		anim = GetComponent<Animator>();
 		isGrounded = false;
 		hasTribute = false;
-	
+		spawnPoint = transform.position;
+		cam1 = GameObject.Find ("Camera Player1").GetComponent<Camera> ();
 	}
 	
 	// Update is called once per frame
@@ -72,6 +74,16 @@ public class Player2Movement : MonoBehaviour {
 			anim.SetBool ("isWalking", false);
 		}
 
+		if (rg.position.y < -3f) {
+			//cam1 = GameObject.Find ("Camera Player1").GetComponent<Camera> ();
+			cam1.clearFlags = CameraClearFlags.SolidColor;
+			cam1.backgroundColor = Color.black;
+			
+			cam1.depth = 0;
+		}
+		
+		if(rg.position.y < -20.0f) respawnPlayer();
+
 		stopAnimations ();
 		
 		direction = Input.GetAxis("HorizontalP2");
@@ -92,7 +104,7 @@ public class Player2Movement : MonoBehaviour {
 
 	public void jump() {
 
-		if (isGrounded) {
+		if (isGrounded && rg.velocity.y <= 0.1f) {
 			//rg.velocity = new Vector2 (rg.velocity.x, jumpHeight);
 			rg.AddForce(Vector2.up * jumpHeight);
 			anim.SetBool ("isJumping", true);
@@ -101,19 +113,34 @@ public class Player2Movement : MonoBehaviour {
 
 	void meleeAttack() {
 
-		RaycastHit2D hit = Physics2D.Linecast (meleeStart.position, meleeEnd.position, 1 << LayerMask.NameToLayer ("NPC") | 
-		                                       1 << LayerMask.NameToLayer ("Negro"));
+		LayerMask layerMark = 1 << LayerMask.NameToLayer ("NPC") | 1 << LayerMask.NameToLayer ("Negro");
+		RaycastHit2D hit = Physics2D.Linecast (meleeStart.position, meleeEnd.position, layerMark);
+		RaycastHit2D hit2 = Physics2D.Linecast (meleeStart2.position, meleeEnd2.position, layerMark);
 		Debug.DrawLine(meleeStart.position,meleeEnd.position,Color.green);
 		AudioSource audio = GetComponent<AudioSource> ();
 		audio.Play ();
-		if (hit != null && hit.collider != null) {
-		
-			if(hit.collider.gameObject.CompareTag("NPC")) {
 
-				hit.collider.gameObject.GetComponent<Damage>().ApplyDamage(-1f);
-				Debug.Log("Te pegue " + hit.collider.gameObject.name);
+		bool appliedDamage = false;
+
+		if (hit && hit.collider && !appliedDamage) {
+		
+			if (hit.collider.gameObject.CompareTag ("NPC")) {
+
+				hit.collider.gameObject.GetComponent<Damage> ().ApplyDamage (-1f);
+				appliedDamage = true;
 			}
 		}
+
+		if (hit2 && hit2.collider && !appliedDamage) {
+			
+			if (hit2.collider.gameObject.CompareTag ("NPC")) {
+				
+				hit2.collider.gameObject.GetComponent<Damage> ().ApplyDamage (-1f);
+				appliedDamage = true;
+			}
+		}
+
+		appliedDamage = false;
 	}
 
 	void grabTribute() {
@@ -158,6 +185,12 @@ public class Player2Movement : MonoBehaviour {
 		if (anim.GetBool ("isAttacking"))
 			anim.SetBool ("isAttacking", false);
 
+	}
+
+	void respawnPlayer() {
+		cam1.depth = 1;
+		transform.position = spawnPoint;
+		
 	}
 	
 }

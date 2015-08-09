@@ -3,7 +3,8 @@ using System.Collections;
 
 public class Rojo : NpcBase {
 
-	public float limitX;
+	public float limitXizq;
+	public float limitXder;
 	public float jumpHeight;
 
 	new void Awake()
@@ -21,7 +22,7 @@ public class Rojo : NpcBase {
 		
 		rg.velocity = new Vector2(directionX * MoveSpeedX * Time.deltaTime, rg.velocity.y);
 		
-		if(transform.position.x >= limitX)
+		if(transform.position.x >= limitXder)
 		{
 			if(rg.velocity.x > 0)
 			{
@@ -30,7 +31,7 @@ public class Rojo : NpcBase {
 			}	
 			
 		}
-		if(transform.position.x <= -limitX)
+		if(transform.position.x <= limitXizq)
 		{
 			if(rg.velocity.x < 0)
 			{
@@ -39,7 +40,7 @@ public class Rojo : NpcBase {
 			}
 		}
 		
-		if(isGrounded)
+		if(isGrounded && rg.velocity.y <= 0.1f)
 		{
 			rg.AddForce(Vector2.up * jumpHeight);
 		}
