@@ -42,21 +42,24 @@ public class PlayerMovement : MonoBehaviour {
 	
 	void FixedUpdate () 
 	{
-		anim.SetFloat("SpeedX",rg.velocity.x);
-			
-		/*if (rg.velocity.x != 0) {
+		if (anim.GetBool ("isJumping"))
+			anim.SetBool ("isJumping", false);
+
+		if (!isGrounded)
+			anim.SetBool ("isJumping", true);
+
+		if (rg.velocity.x > 0) 
+			transform.localScale = new Vector3 (Mathf.Abs (transform.localScale.x), transform.localScale.y, transform.localScale.z);
+		
+		else if (rg.velocity.x < 0)
+			transform.localScale = new Vector3 (-Mathf.Abs (transform.localScale.x), transform.localScale.y, transform.localScale.z);
+
+		if (rg.velocity.x != 0) {
 			anim.SetBool ("isWalking", true);
-			
-			
-			
-			if (rg.velocity.x > 0) 
-				transform.localScale = new Vector3 (Mathf.Abs (transform.localScale.x), transform.localScale.y, transform.localScale.z);
-			
-			else if (rg.velocity.x < 0)
-				transform.localScale = new Vector3 (-Mathf.Abs (transform.localScale.x), transform.localScale.y, transform.localScale.z);
+
 		} else {
 			anim.SetBool ("isWalking", false);
-		}*/
+		}
 		
 		direction = Input.GetAxis("Horizontal");
 		rg.velocity = new Vector2(direction*MoveSpeed,rg.velocity.y);
