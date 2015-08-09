@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class NpcBase : MonoBehaviour {
 
 	//Flags
 	//Walk horizontal without falling
-	public bool WalkHorWoF;
+	public bool WalkHorWoF;	 
 
 	//Linecast extremes.
 	public Transform lineStart;
@@ -17,13 +18,13 @@ public class NpcBase : MonoBehaviour {
 	//HorizontalMovement
 	public float MoveSpeedX;
 	protected bool isGrounded;
-	private float directionX = 1;
+	protected float directionX = 1;
 
 	//Main animator
 	protected Animator anim;
 	 
 	// Use this for initialization
-	void Awake () 
+	protected void Awake () 
 	{
 		rg = GetComponent<Rigidbody2D>();
 		anim = GetComponent<Animator>();
@@ -66,7 +67,7 @@ public class NpcBase : MonoBehaviour {
 		isGrounded = Physics2D.Linecast(lineStart.position,lineEnd.position,1 << LayerMask.NameToLayer("Plataformas"));		
 	}
 	
-	private void WalkHorizontalNoFallling()
+	protected void WalkHorizontalNoFallling()
 	{
 		if(!isGrounded)
 		{
@@ -82,13 +83,15 @@ public class NpcBase : MonoBehaviour {
 		
 	}
 	
-	private void setDirectionX()
+	protected void setDirectionX()
 	{
 	
 		if(directionX > 0)
 		{
-			transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x),transform.localScale.y,transform.localScale.z);
+			transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x),transform.localScale.y,transform.localScale.z);
 		}
-		else if(directionX < 0) transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x),transform.localScale.y,transform.localScale.z);	
+		else if(directionX < 0) transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x),transform.localScale.y,transform.localScale.z);	
 	}
+	
+	
 }
