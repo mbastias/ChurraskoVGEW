@@ -19,6 +19,8 @@ public class Player1Movement : MonoBehaviour {
 	private Collider2D tribute;
 	private Vector3 spawnPoint;
 	private Camera cam1;
+	
+	private bool canMove;
 
 	// Use this for initialization
 	void Awake () {
@@ -27,6 +29,7 @@ public class Player1Movement : MonoBehaviour {
 		anim = GetComponent<Animator>();
 		isGrounded = false;
 		hasTribute = false;
+		canMove = true;
 		spawnPoint = transform.position;
 		cam1 = GameObject.Find ("Camera Player1").GetComponent<Camera> ();
 	
@@ -37,23 +40,27 @@ public class Player1Movement : MonoBehaviour {
 	{
 		Raycast();
 
-		if(Input.GetButtonDown("JumpP1"))
+		if(canMove == true)
 		{
-			jump();
-		}
 
-		if (Input.GetButtonDown ("MeleeP1")) {
-
-			if(!hasTribute) grabTribute();
-			else dropTribute();
-
-			if(Time.time > nextAttackSpeed) {
-
-				nextAttackSpeed = Time.time + meleeAttackSpeed;
-
-				if(!hasTribute) {
-					meleeAttack();
-					anim.SetBool("isAttacking",true);
+			if(Input.GetButtonDown("JumpP1") )
+			{
+				jump();
+			}
+	
+			if (Input.GetButtonDown ("MeleeP1") ) {
+	
+				if(!hasTribute) grabTribute();
+				else dropTribute();
+	
+				if(Time.time > nextAttackSpeed) {
+	
+					nextAttackSpeed = Time.time + meleeAttackSpeed;
+	
+					if(!hasTribute) {
+						meleeAttack();
+						anim.SetBool("isAttacking",true);
+					}
 				}
 			}
 		}
@@ -68,7 +75,7 @@ public class Player1Movement : MonoBehaviour {
 		else if (rg.velocity.x < 0)
 			transform.localScale = new Vector3 (-Mathf.Abs (transform.localScale.x), transform.localScale.y, transform.localScale.z);
 
-		if (rg.velocity.x != 0) {
+		if (rg.velocity.x != 0 && canMove == true) {
 			anim.SetBool ("isWalking", true);
 
 		} else {
@@ -87,8 +94,11 @@ public class Player1Movement : MonoBehaviour {
 
 		stopAnimations ();
 		
-		direction = Input.GetAxis("HorizontalP1");
-		rg.velocity = new Vector2(direction*MoveSpeed,rg.velocity.y);
+		if(canMove == true)
+		{
+			direction = Input.GetAxis("HorizontalP1");
+			rg.velocity = new Vector2(direction*MoveSpeed,rg.velocity.y);
+		}	
 	}
 
 	void Raycast()
@@ -99,8 +109,7 @@ public class Player1Movement : MonoBehaviour {
 		
 		isGrounded = Physics2D.Linecast(lineStart.position,lineEndLeft.position,1 << LayerMask.NameToLayer("Plataformas")) 
 			|| Physics2D.Linecast(lineStart.position,lineEndRight.position,1 << LayerMask.NameToLayer("Plataformas"));
-			
-			
+					
 	}
 
 	public void jump() {
@@ -192,6 +201,13 @@ public class Player1Movement : MonoBehaviour {
 		cam1.depth = 1;
 		transform.position = spawnPoint;
 
+	}
+	
+	public IEnumerator Stun(float time)
+	{
+		canMove = false;
+		yield return new WaitForSeconds(time);
+		canMove = true;	
 	}
 	
 }
